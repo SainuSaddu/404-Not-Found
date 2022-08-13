@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Josefin Sans';
+}
+
+header .head h2 {
+  font-size: 33px;
+  padding-left: 30px;
+  color: #1f1235;
+}
+
+.elements {
+  height: 40vh;
+  display: flex;
+}
+
+.elements .image img {
+  margin-top: 28%;
+  width: 90%;
+  height: auto;
+  float: left;
+}
+
+.elements .text {
+  font-size: 2em;
+  margin-top: 15%;
+  float: right;
+  text-align: left;
+  color: #1f1235;
+}
+
+.elements .text .btn {
+  border: none;
+  background-color: #ff6e6c;
+  padding: 20px 18px 20px 18px;
+  font-family: 'Josefin Sans';
+  color: #1f1235;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.elements .text .para {
+  color: #1b1425;
+}
+
+footer {
+  text-align: center;
+  color: #1b1425;
+  margin-left: 340px;
+}
+
+footer a {
+  color: #1f1235;
+}
+
+footer .foot .info {
+  position: fixed;
+}
+
+@media only screen and (max-width: 720px) {
+  header .head h2 {
+    font-size: 20px;
+    padding-left: 8px;
+  }
+
+  .elements {
+    display: block;
+  }
+
+  .elements .image img {
+    width: 100%;
+    margin-top: 18px;
+  }
+
+  .elements .text h1 {
+    font-size: 60px;
+  }
+
+  .elements .text .para {
+    font-size: 25px;
+  }
+
+  .elements .text .btn {
+    margin-bottom: 58px;
+  }
+
+  footer {
+    text-align: center;
+    margin-left: 8px;
+  }
+
+  footer .foot .info {
+    position: static;
+  }
+}
